@@ -3,7 +3,7 @@ package Pagefactory;
 import java.time.Duration;
 
 import org.junit.Assert;
-import org.openqa.selenium.Alert;
+// import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.UnhandledAlertException;
 import org.openqa.selenium.WebDriver;
@@ -35,20 +35,20 @@ WebDriver driver;
 		
 		driver.findElement(By.id(boxname)).click();
 		Thread.sleep(5000);
-		Alert alert = driver.switchTo().alert();
+		// Alert alert = driver.switchTo().alert();
 		
 		if (boxname.equalsIgnoreCase("promptBox"))
 		{
 		
-			alert.sendKeys("Pavan Kumar");
+			driver.switchTo().alert().sendKeys("Pavan Kumar");
 		
 		}
 		if (action.equalsIgnoreCase("Accept")) {
 			
-				alert.accept();  
+				driver.switchTo().alert().accept();  
 		}
 		if (action.equalsIgnoreCase("Reject")) {
-		        	 alert.dismiss();
+		        	 driver.switchTo().alert().dismiss();
 			      }    
 		
 			}

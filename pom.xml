@@ -28,6 +28,14 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     <artifactId>selenium-java</artifactId>
     <version>4.15.0</version>
 </dependency>
+	 
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-api -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-api</artifactId>
+    <version>4.15.0</version>
+</dependency>
+
 
 <!-- https://mvnrepository.com/artifact/io.appium/java-client -->
 <dependency>

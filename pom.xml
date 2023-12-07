@@ -66,12 +66,12 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 </dependency>
 
 <!-- https://mvnrepository.com/artifact/org.openqa.selenium/selenium -->
-<dependency>
+<!-- <dependency>
     <groupId>org.openqa.selenium</groupId>
     <artifactId>selenium</artifactId>
     <version>0.9.1</version>
     <type>pom</type>
-</dependency>
+</dependency> -->
 
 	 
 </dependencies>

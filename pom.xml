@@ -11,6 +11,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
    <maven.compiler.source>1.8</maven.compiler.source>
    <maven.compiler.target>1.8</maven.compiler.target>
 	<myTestSourceDirectory>src/test/java/StepDefenitions</myTestSourceDirectory>
+	  <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
  </properties>
   
   

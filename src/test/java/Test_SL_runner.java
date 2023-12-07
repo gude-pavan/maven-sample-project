@@ -9,8 +9,9 @@ import io.cucumber.junit.*;
 @CucumberOptions(features = "src/test/resources/Features",glue= {"StepDefenitions"},
 monochrome	= true,
 plugin = {"pretty","html:target/Reports/htmlreport.html",
-		"json:target/Reports/Jsonreport.json",
-		"junit:target/Reports/htmlreport.xml"},
+		"json:target/Reports/Jsonreport.json"
+	//	"junit:target/Reports/htmlreport.xml"
+	 },
 		tags= ("@Swaglabs or @HYR_test")
 		)
 

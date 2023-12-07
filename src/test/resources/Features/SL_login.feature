@@ -17,7 +17,7 @@ Background:
     Examples: 
       | username                | password     |
       | standard_user           | secret_sauce |
-      | visual_user             | secret_sauce2 |
+      | visual_user             | secret_sauce |
 
   @login_check_failure
   Scenario Outline: Check login is successfull with invalid Credentials

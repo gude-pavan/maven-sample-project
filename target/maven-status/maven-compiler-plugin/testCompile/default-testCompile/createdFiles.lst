@@ -1,0 +1,10 @@
+Pagefactory\HYRtutorials_Iframes_PF.class
+StepDefenitions\browsersetup.class
+StepDefenitions\HYRtutorials_Iframe_Steps.class
+Pagefactory\SL_Loginpage_PF.class
+StepDefenitions\SL_loginsteps_PF.class
+Pagefactory\HRY_alerts_page_PF.class
+Test_SL_runner.class
+Pagefactory\SL_Products_page_PF.class
+StepDefenitions\SL_sort_filters_steps_PF.class
+StepDefenitions\HYR_alerts_page_steps_PF.class

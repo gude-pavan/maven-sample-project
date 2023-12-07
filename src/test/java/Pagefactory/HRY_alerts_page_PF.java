@@ -4,6 +4,7 @@ import java.time.Duration;
 
 import org.junit.Assert;
 import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
 // import org.openqa.selenium.*;
 import org.openqa.selenium.UnhandledAlertException;
 import org.openqa.selenium.WebDriver;
